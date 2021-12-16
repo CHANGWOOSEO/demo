@@ -20,7 +20,8 @@ import javax.servlet.http.HttpSession;
 @RequiredArgsConstructor
 @Log4j2
 public class BoardController {
-
+    
+    // 주석으로 GIT 허브 테스트
     @Autowired
     private final BoardService service;
     private boolean flag = false;
